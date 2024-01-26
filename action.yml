@@ -1,0 +1,7 @@
+# action.yml
+name: 'My Express App'
+description: 'Running Simple Hello-World Express app'
+
+runs:
+  using: 'node16'
+  image: 'app.js'
